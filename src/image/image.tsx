@@ -29,12 +29,10 @@ export default function Image(props:any) {
                     <h2><Link className="image__back-button" to={`/gallery/${imageProps.folder}`}><FontAwesomeIcon icon={faAngleLeft} /></Link>  {passedValueState.state.desc}</h2>
                     <div className="image__container">
                         <picture>
-                            <source media="max-width: 599.98px" srcSet={`/images/${imageProps.folder}/${imageProps.imgId}-m.jpg`} />
-                            <source media="max-width: 949.98px" srcSet={`/images/${imageProps.folder}/${imageProps.imgId}-t.jpg`} />
-                            <source media="min-width: 950px" srcSet={`/images/${imageProps.folder}/${imageProps.imgId}-d.jpg`} />
-                            <div className="objFitFix" >
-                                <img alt="" src={`/images/${imageProps.folder}/${imageProps.imgId}-d.jpg`} />
-                            </div>
+                            <source srcSet={`/images/${imageProps.folder}/${imageProps.imgId}-m.jpg`} media="(max-width: 599.98px)" />
+                            <source srcSet={`/images/${imageProps.folder}/${imageProps.imgId}-t.jpg`} media="(max-width: 949.98px)" />
+                            <source srcSet={`/images/${imageProps.folder}/${imageProps.imgId}-d.jpg`} media="(min-width: 950px)" />
+                            <img alt="" src={`/images/${imageProps.folder}/${imageProps.imgId}-d.jpg`} />
                         </picture>
                         <aside>
                             {
