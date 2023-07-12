@@ -25,7 +25,7 @@ const Footer = () => {
                 </nav>
                 <div>
                     <p>Copyright &copy; {`${new Date().getFullYear()}`}</p>
-                    <p>But here is an artist. He desires to paint you the dreamiest, shadiest, quietest, most enchanting bit of romantic landscape in all the valley of the Saco. What is the chief element he employs? There stand his trees, each with a hollow trunk, as if a hermit and a crucifix were within; and here sleeps his meadow, and there sleep his cattle; and up from yonder cottage goes a sleepy smoke.</p>
+                    <p>Hey y'all, if'n you want to use anything here in a project just ask and, presuming it's not for a commercial venture, I'm most likely going to say hell yes.  Unless you're a Nazi or something because if so, go pound sand you douchebag.  I will say this: there is a concrete reason I have the copyright notice on all my images.  One of the things I hate slightly less than hate mongers are people who poach the work of others and pass it off as theirs.  Bigots are still way worse, though.</p>
                 </div>
             </footer>
         </>
