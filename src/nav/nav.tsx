@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faAsterisk, faBars, faIcons } from '@fortawesome/free-solid-svg-icons';
+import { faAsterisk, faBars } from '@fortawesome/free-solid-svg-icons';
 library.add(faAsterisk, faBars);
 
 
